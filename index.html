@@ -19,6 +19,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -32,7 +33,7 @@
       <p class="hero-greeting">Hi, I'm</p>
       <h1 class="hero-name">Yashasvi Ranjan</h1>
       <p class="hero-tagline">Computer Engineering Student &amp; Full-Stack Developer</p>
-      <p class="hero-sub">Building modern web experiences with Node.js, React &amp; MongoDB</p>
+      <p class="hero-sub">NioHack Innovation Award winner building full-stack and AI-powered products with Next.js, TypeScript, Node.js &amp; Python</p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
         <a href="#contact" class="btn btn-outline">Get in Touch</a>
@@ -56,6 +57,11 @@
           <p>
             I'm a third-year Computer Engineering student at <strong>Thapar Institute of Engineering and Technology</strong>,
             passionate about building full-stack web applications that solve real-world problems.
+          </p>
+          <p>
+            I'm looking for an internship in a fast-paced environment where I can put my multitasking skills to work
+            and gain hands-on field experience. Most recently I interned at <strong>ContinuumGlobal</strong> and won the
+            <strong>NioHack Innovation Award</strong> for ReconX-AI.
           </p>
           <div class="about-info">
             <div class="info-item">
@@ -89,6 +95,8 @@
             <span class="tag">C</span>
             <span class="tag">C++</span>
             <span class="tag">SQL</span>
+            <span class="tag">Python</span>
+            <span class="tag">TypeScript</span>
             <span class="tag">JavaScript</span>
           </div>
         </div>
@@ -114,6 +122,7 @@
             <span class="tag">Nest.js</span>
             <span class="tag">Objection.js</span>
             <span class="tag">Knex.js</span>
+            <span class="tag">FastAPI</span>
             <span class="tag">REST APIs</span>
           </div>
         </div>
@@ -123,6 +132,7 @@
           <h3>Database</h3>
           <div class="tags">
             <span class="tag">MongoDB</span>
+            <span class="tag">MySQL</span>
             <span class="tag">Mongoose</span>
             <span class="tag">RDBMS</span>
           </div>
@@ -155,11 +165,77 @@
     </div>
   </section>
 
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">September 2026</span>
+            </div>
+            <h3 class="timeline-title">NioHack Innovation Award Winner</h3>
+            <p class="timeline-sub">ReconX-AI &mdash; autonomous financial reconciliation &amp; SOX-404 compliance terminal</p>
+            <ul class="project-highlights">
+              <li>Built ReconX-AI, an autonomous six-agent system that automates month-end matching of vendor invoices against bank debit records (NEFT, RTGS, IMPS).</li>
+              <li>Implemented a weighted Smart Matcher scoring vendor similarity, amount, UTR reference, date delta, and narration, plus an X-Ray Diff workbench that flags TDS, GST, and currency discrepancies.</li>
+              <li>Developed the stack with Next.js, TypeScript, FastAPI, Prisma, and ChromaDB, with OCR-based document ingestion, role-based access, and a cryptographic audit trail.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">June 2026 – July 2026</span>
+              <span class="timeline-location">Gurgaon</span>
+            </div>
+            <h3 class="timeline-title">ContinuumGlobal</h3>
+            <p class="timeline-sub">Software Engineer Intern</p>
+            <ul class="project-highlights">
+              <li>Developed a Figma OAuth 2.0 proof of concept for securely connecting user accounts and extracting Figma design data.</li>
+              <li>Designed and evaluated an architecture for mobile responsiveness in a Figma-to-HTML pipeline, identifying which design attributes require mobile-specific values and which remain consistent across desktop and mobile.</li>
+              <li>Worked on an AI-powered email generation platform, contributing to workflows for generating customized marketing email templates using LLMs.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- PROJECTS -->
-  <section class="section" id="projects">
+  <section class="section section-alt" id="projects">
     <div class="container">
       <h2 class="section-title">Projects</h2>
       <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">&#129302;</span>
+          </div>
+          <h3 class="project-title">ReconX-AI</h3>
+          <p class="project-desc">
+            An autonomous six-agent financial reconciliation and SOX-404 compliance terminal that matches vendor
+            invoices against bank debit records. NioHack Innovation Award winner.
+          </p>
+          <ul class="project-highlights">
+            <li>Weighted Smart Matcher scoring vendor, amount, UTR, date delta and narration</li>
+            <li>X-Ray Diff workbench flagging TDS, GST and currency discrepancies</li>
+            <li>OCR document ingestion, role-based access and a cryptographic audit trail</li>
+          </ul>
+          <div class="project-stack">
+            <span class="tag tag-accent">Next.js</span>
+            <span class="tag tag-accent">TypeScript</span>
+            <span class="tag tag-accent">FastAPI</span>
+            <span class="tag tag-accent">Prisma</span>
+            <span class="tag tag-accent">ChromaDB</span>
+          </div>
+        </div>
 
         <div class="project-card">
           <div class="project-header">
@@ -197,7 +273,7 @@
   </section>
 
   <!-- EDUCATION -->
-  <section class="section section-alt" id="education">
+  <section class="section" id="education">
     <div class="container">
       <h2 class="section-title">Education</h2>
       <div class="timeline">
@@ -233,7 +309,7 @@
   </section>
 
   <!-- CONTACT -->
-  <section class="section" id="contact">
+  <section class="section section-alt" id="contact">
     <div class="container">
       <h2 class="section-title">Get in Touch</h2>
       <p class="contact-intro">
